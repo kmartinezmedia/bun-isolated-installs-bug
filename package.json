@@ -1,0 +1,11 @@
+{
+  "name": "bun-isolated-installs-bug",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "typecheck": "bun --filter '*' typecheck"
+  }
+}

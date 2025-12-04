@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+.bun/
+
+# Lockfiles (optional - remove if you want to commit)
+# bun.lock
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
